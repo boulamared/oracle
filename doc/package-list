@@ -1,0 +1,14 @@
+com.boulamared.jpython
+com.boulamared.jpython.IO
+com.boulamared.jpython.IO.utils
+com.boulamared.jpython.config
+com.boulamared.jpython.event
+com.boulamared.jpython.executor
+com.boulamared.jpython.executor.handler
+com.boulamared.jpython.interpreter
+com.boulamared.jpython.interpreter.python
+com.boulamared.jpython.interpreter.python.error
+com.boulamared.jpython.web
+com.boulamared.jpython.web.dto
+com.boulamared.jpython.web.error
+com.boulamared.jpython.web.handler

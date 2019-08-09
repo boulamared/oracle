@@ -1,0 +1,818 @@
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:8:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:8:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'write': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'write': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:12:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'write': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/IO/IEventWriter.java:12:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'write': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	ImmutableField: Private field 'extension' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:12:	ImmutableField: Private field 'extension' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:17:	MethodArgumentCouldBeFinal: Parameter 'extension' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:17:	MethodArgumentCouldBeFinal: Parameter 'extension' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'event' (lines '22'-'27').
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'event' (lines '22'-'27').
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	MethodArgumentCouldBeFinal: Parameter 'encoding' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	MethodArgumentCouldBeFinal: Parameter 'encoding' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:22:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:23:	LocalVariableCouldBeFinal: Local variable 'builder' could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:23:	LocalVariableCouldBeFinal: Local variable 'builder' could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:24:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:24:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:24:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:24:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:31:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:31:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:31:	LocalVariableCouldBeFinal: Local variable 'script' could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:31:	LocalVariableCouldBeFinal: Local variable 'script' could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:37:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:37:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:38:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/main/java/com/boulamared/jpython/IO/SimpleFileEventWriter.java:38:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:9:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:9:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'encoding' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'encoding' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:11:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	MethodArgumentCouldBeFinal: Parameter 'suffix' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:15:	MethodArgumentCouldBeFinal: Parameter 'suffix' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:19:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/IO/utils/FileWriterUtils.java:19:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/JpythonApplication.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/JpythonApplication.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/JpythonApplication.java:9:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/boulamared/jpython/JpythonApplication.java:9:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/boulamared/jpython/JpythonApplication.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/JpythonApplication.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/JpythonApplication.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/JpythonApplication.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/ServletInitializer.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/ServletInitializer.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/ServletInitializer.java:6:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/ServletInitializer.java:6:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/ServletInitializer.java:9:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/ServletInitializer.java:9:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/config/Constants.java:3:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:3:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	LongVariable: Avoid excessively long variable names like EXECUTE_END_POINT_PATH
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	LongVariable: Avoid excessively long variable names like EXECUTE_END_POINT_PATH
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'EXECUTE_END_POINT_PATH': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:9:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'EXECUTE_END_POINT_PATH': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	LongVariable: Avoid excessively long variable names like PING_END_POINT_PATH
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	LongVariable: Avoid excessively long variable names like PING_END_POINT_PATH
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PING_END_POINT_PATH': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:10:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PING_END_POINT_PATH': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	LongVariable: Avoid excessively long variable names like CONTEXT_IDENTIFIER
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	LongVariable: Avoid excessively long variable names like CONTEXT_IDENTIFIER
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'CONTEXT_IDENTIFIER': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:11:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'CONTEXT_IDENTIFIER': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'HTTP_RESPONSE_OK': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:12:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'HTTP_RESPONSE_OK': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:18:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:18:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:18:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'DEFAUT_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:18:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'DEFAUT_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	LongVariable: Avoid excessively long variable names like SUCCESS_EXIT_VALUE
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	LongVariable: Avoid excessively long variable names like SUCCESS_EXIT_VALUE
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'SUCCESS_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:19:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'SUCCESS_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'ERROR_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:20:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'ERROR_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	LongVariable: Avoid excessively long variable names like TIMEOUT_EXIT_VALUE
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	LongVariable: Avoid excessively long variable names like TIMEOUT_EXIT_VALUE
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:21:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_EXIT_VALUE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	LongVariable: Avoid excessively long variable names like TIMEOUT_ONE_SECOND
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	LongVariable: Avoid excessively long variable names like TIMEOUT_ONE_SECOND
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_ONE_SECOND': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:26:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_ONE_SECOND': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	LongVariable: Avoid excessively long variable names like TIMEOUT_ONE_MINUTE
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	LongVariable: Avoid excessively long variable names like TIMEOUT_ONE_MINUTE
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_ONE_MINUTE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:27:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_ONE_MINUTE': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	LongVariable: Avoid excessively long variable names like TIMEOUT_FIVE_MINUTES
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	LongVariable: Avoid excessively long variable names like TIMEOUT_FIVE_MINUTES
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_FIVE_MINUTES': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:28:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_FIVE_MINUTES': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	LongVariable: Avoid excessively long variable names like TIMEOUT_TEN_MINUTES
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	LongVariable: Avoid excessively long variable names like TIMEOUT_TEN_MINUTES
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_TEN_MINUTES': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:29:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'TIMEOUT_TEN_MINUTES': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:34:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:34:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:34:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_EXTENSION': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:34:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_EXTENSION': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_KEYWORD': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:35:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_KEYWORD': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_SEPARATOR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:36:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_SEPARATOR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	LongVariable: Avoid excessively long variable names like PYTHON_INTERPRETER_SYNTAX_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	LongVariable: Avoid excessively long variable names like PYTHON_INTERPRETER_SYNTAX_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_INTERPRETER_SYNTAX_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:40:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_INTERPRETER_SYNTAX_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	LongVariable: Avoid excessively long variable names like PYTHON_INTERPRETER_TIMEOUT_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	LongVariable: Avoid excessively long variable names like PYTHON_INTERPRETER_TIMEOUT_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_INTERPRETER_TIMEOUT_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:41:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'PYTHON_INTERPRETER_TIMEOUT_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	LongVariable: Avoid excessively long variable names like INTERPRETER_SYNTAX_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	LongVariable: Avoid excessively long variable names like INTERPRETER_SYNTAX_ERROR
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'INTERPRETER_SYNTAX_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:42:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'INTERPRETER_SYNTAX_ERROR': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	ConstantsInInterface: Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	LongVariable: Avoid excessively long variable names like INTERPRETER_NOT_FOUND
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	LongVariable: Avoid excessively long variable names like INTERPRETER_NOT_FOUND
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'INTERPRETER_NOT_FOUND': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/config/Constants.java:43:	UnnecessaryModifier: Unnecessary modifiers 'static final' on field 'INTERPRETER_NOT_FOUND': the field is declared in an interface type
+src/main/java/com/boulamared/jpython/event/Event.java:11:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:11:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:11:	DataClass: The class 'Event' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/boulamared/jpython/event/Event.java:11:	DataClass: The class 'Event' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/boulamared/jpython/event/Event.java:17:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:17:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:17:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/Event.java:17:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/Event.java:18:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:18:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/Event.java:33:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:33:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:41:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/com/boulamared/jpython/event/Event.java:41:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/com/boulamared/jpython/event/Event.java:50:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:50:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:70:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:70:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:70:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/Event.java:70:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/Event.java:85:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:85:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:100:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/Event.java:100:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/IEventStore.java:5:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:5:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:11:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/IEventStore.java:11:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/IEventStore.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:15:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/IEventStore.java:15:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/IEventStore.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/IEventStore.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	ImmutableField: Private field 'events' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	ImmutableField: Private field 'events' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:12:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:15:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:15:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:21:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'event' (lines '21'-'23').
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:21:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'event' (lines '21'-'23').
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:21:	MethodArgumentCouldBeFinal: Parameter 'events' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:21:	MethodArgumentCouldBeFinal: Parameter 'events' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:22:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:22:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:29:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:29:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:29:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:29:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:34:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:34:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:39:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:39:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:39:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/InMemoryEventStore.java:39:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/boulamared/jpython/event/PythonSeparatorEvent.java:5:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/PythonSeparatorEvent.java:5:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/event/PythonSeparatorEvent.java:22:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/event/PythonSeparatorEvent.java:22:	MethodArgumentCouldBeFinal: Parameter 'payload' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:13:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:13:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:19:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:20:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:20:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:20:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:20:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:21:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:21:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:21:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:21:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:26:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:26:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:35:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:35:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:45:	UselessParentheses: Useless parentheses.
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:45:	UselessParentheses: Useless parentheses.
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:53:	MethodArgumentCouldBeFinal: Parameter 'error' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:53:	MethodArgumentCouldBeFinal: Parameter 'error' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:63:	UselessParentheses: Useless parentheses.
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:63:	UselessParentheses: Useless parentheses.
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:82:	MethodArgumentCouldBeFinal: Parameter 'exitValue' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:82:	MethodArgumentCouldBeFinal: Parameter 'exitValue' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:97:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:97:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:112:	MethodArgumentCouldBeFinal: Parameter 'errors' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/ExecutionResult.java:112:	MethodArgumentCouldBeFinal: Parameter 'errors' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:6:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:6:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:8:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'set': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:8:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'set': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'run': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'run': the method is declared in an interface type
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/IProcessExecutor.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:22:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:22:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	ImmutableField: Private field 'successExecutionHandler' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	ImmutableField: Private field 'successExecutionHandler' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	LongVariable: Avoid excessively long variable names like successExecutionHandler
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:24:	LongVariable: Avoid excessively long variable names like successExecutionHandler
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	ImmutableField: Private field 'errorExecutionHandler' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	ImmutableField: Private field 'errorExecutionHandler' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	LongVariable: Avoid excessively long variable names like errorExecutionHandler
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:25:	LongVariable: Avoid excessively long variable names like errorExecutionHandler
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:26:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:26:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:29:	MethodArgumentCouldBeFinal: Parameter 'timeout' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:29:	MethodArgumentCouldBeFinal: Parameter 'timeout' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:35:	MethodArgumentCouldBeFinal: Parameter 'command' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:35:	MethodArgumentCouldBeFinal: Parameter 'command' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:37:	LocalVariableCouldBeFinal: Local variable 'cmdLine' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:37:	LocalVariableCouldBeFinal: Local variable 'cmdLine' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:38:	LocalVariableCouldBeFinal: Local variable 'stdout' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:38:	LocalVariableCouldBeFinal: Local variable 'stdout' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:39:	LocalVariableCouldBeFinal: Local variable 'stderr' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:39:	LocalVariableCouldBeFinal: Local variable 'stderr' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:40:	LocalVariableCouldBeFinal: Local variable 'psh' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:40:	LocalVariableCouldBeFinal: Local variable 'psh' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:44:	LocalVariableCouldBeFinal: Local variable 'watchDog' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:44:	LocalVariableCouldBeFinal: Local variable 'watchDog' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:46:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:46:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:51:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'exitValue' (lines '51'-'53').
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:51:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'exitValue' (lines '51'-'53').
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'exitValue' (lines '53'-'56').
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:53:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'exitValue' (lines '53'-'56').
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:60:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:60:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:61:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'executionResult'
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:61:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'executionResult'
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:65:	MethodArgumentCouldBeFinal: Parameter 'stdErr' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:65:	MethodArgumentCouldBeFinal: Parameter 'stdErr' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:65:	MethodArgumentCouldBeFinal: Parameter 'stdout' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:65:	MethodArgumentCouldBeFinal: Parameter 'stdout' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:66:	MethodArgumentCouldBeFinal: Parameter 'exitValue' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:66:	MethodArgumentCouldBeFinal: Parameter 'exitValue' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:67:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/executor/SimpleProcessExecutor.java:67:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:15:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:15:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'out' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'out' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:19:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:19:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:19:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:19:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	CloseResource: Ensure that resources like this Reader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	CloseResource: Ensure that resources like this Reader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	ShortVariable: Avoid variables with short names like br
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:20:	ShortVariable: Avoid variables with short names like br
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'temp' (lines '21'-'22').
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'temp' (lines '21'-'22').
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:22:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:22:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:22:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'temp' (lines '22'-'26').
+src/main/java/com/boulamared/jpython/executor/handler/ErrorExecutionHandler.java:22:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'temp' (lines '22'-'26').
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:8:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:8:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:10:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:10:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/handler/IExecutionHandler.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:15:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:15:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	AvoidPrefixingMethodParameters: Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'out' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'out' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:18:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:19:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:19:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:19:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:19:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	CloseResource: Ensure that resources like this Reader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	CloseResource: Ensure that resources like this Reader object are closed after use
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	ShortVariable: Avoid variables with short names like br
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:20:	ShortVariable: Avoid variables with short names like br
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'temp' (lines '21'-'22').
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:21:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'temp' (lines '21'-'22').
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:22:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:22:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:22:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'temp' (lines '22'-'25').
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:22:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'temp' (lines '22'-'25').
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:23:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/executor/handler/SuccessExecutionHandler.java:23:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/AbstractExpression.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/interpreter/AbstractExpression.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/interpreter/AbstractExpression.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/AbstractExpression.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/Interpreter.java:7:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/interpreter/Interpreter.java:7:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/interpreter/Interpreter.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/Interpreter.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	ImmutableField: Private field 'context' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	ImmutableField: Private field 'context' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:22:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	FieldNamingConventions: The final field name 'EXPRESSION_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	FieldNamingConventions: The final field name 'EXPRESSION_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:24:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	FieldNamingConventions: The final field name 'RESULT_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	FieldNamingConventions: The final field name 'RESULT_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:25:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	FieldNamingConventions: The final field name 'ERROR_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	FieldNamingConventions: The final field name 'ERROR_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:26:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	FieldNamingConventions: The final field name 'EXIT_CODE_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	FieldNamingConventions: The final field name 'EXIT_CODE_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:27:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	FieldNamingConventions: The final field name 'EVENT_STORE_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	FieldNamingConventions: The final field name 'EVENT_STORE_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:28:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	FieldNamingConventions: The final field name 'RESULTS_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	FieldNamingConventions: The final field name 'RESULTS_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:29:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	FieldNamingConventions: The final field name 'ERRORS_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	FieldNamingConventions: The final field name 'ERRORS_KEY' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:30:	FinalFieldCouldBeStatic: This final field could be made static
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	ImmutableField: Private field 'success' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	ImmutableField: Private field 'success' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:32:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	ImmutableField: Private field 'errors' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	ImmutableField: Private field 'errors' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:33:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	ImmutableField: Private field 'eventStore' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:34:	ImmutableField: Private field 'eventStore' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:46:	MethodArgumentCouldBeFinal: Parameter 'expression' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:46:	MethodArgumentCouldBeFinal: Parameter 'expression' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:54:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:54:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:54:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:54:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:59:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:59:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:63:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:63:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:63:	MethodArgumentCouldBeFinal: Parameter 'error' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:63:	MethodArgumentCouldBeFinal: Parameter 'error' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:68:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:68:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:72:	MethodArgumentCouldBeFinal: Parameter 'exitCode' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:72:	MethodArgumentCouldBeFinal: Parameter 'exitCode' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:76:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:76:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:81:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:81:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:91:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:91:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:96:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterContext.java:96:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:12:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:12:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:14:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:20:	MethodArgumentCouldBeFinal: Parameter 'interpreter' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:20:	MethodArgumentCouldBeFinal: Parameter 'interpreter' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:21:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:21:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:22:	ControlStatementBraces: This statement should have braces
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:22:	ControlStatementBraces: This statement should have braces
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:26:	MethodArgumentCouldBeFinal: Parameter 'interpreter' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:26:	MethodArgumentCouldBeFinal: Parameter 'interpreter' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:40:	MethodArgumentCouldBeFinal: Parameter 'expressions' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/InterpreterFactory.java:40:	MethodArgumentCouldBeFinal: Parameter 'expressions' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:22:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:22:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:23:	LocalVariableCouldBeFinal: Local variable 'eventStore' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:23:	LocalVariableCouldBeFinal: Local variable 'eventStore' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:24:	LocalVariableCouldBeFinal: Local variable 'eventWriter' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:24:	LocalVariableCouldBeFinal: Local variable 'eventWriter' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:25:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:25:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:26:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:26:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:26:	SystemPrintln: System.out.println is used
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:26:	SystemPrintln: System.out.println is used
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:27:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:27:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:28:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:28:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:28:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:28:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:29:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:29:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	UnusedFormalParameter: Avoid unused method parameters such as 'eventStore'.
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:35:	UnusedFormalParameter: Avoid unused method parameters such as 'eventStore'.
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'38').
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'38').
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'40').
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'40').
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'42').
+src/main/java/com/boulamared/jpython/interpreter/PythonTerminalExpression.java:36:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '36'-'42').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:15:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:15:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:31:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:42:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:42:	MethodArgumentCouldBeFinal: Parameter 'eventStore' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:43:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:44:	LocalVariableCouldBeFinal: Local variable 'eventWriter' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:44:	LocalVariableCouldBeFinal: Local variable 'eventWriter' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	SystemPrintln: System.out.println is used
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:45:	SystemPrintln: System.out.println is used
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:46:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:46:	LocalVariableCouldBeFinal: Local variable 'executor' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:47:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:47:	LocalVariableCouldBeFinal: Local variable 'executionResult' could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:48:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:61:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:61:	MethodArgumentCouldBeFinal: Parameter 'executionResult' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'65').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'65').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'67').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'67').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'69').
+src/main/java/com/boulamared/jpython/interpreter/python/PythonInterpreter.java:62:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '63'-'69').
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:19:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:19:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:32:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:32:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:35:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:35:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:35:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:37:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:37:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	LongVariable: Avoid excessively long variable names like httpServletRequest
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	LongVariable: Avoid excessively long variable names like httpServletRequest
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	MethodArgumentCouldBeFinal: Parameter 'httpServletRequest' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:48:	MethodArgumentCouldBeFinal: Parameter 'httpServletRequest' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:49:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:49:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:56:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:56:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:59:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:59:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	LongVariable: Avoid excessively long variable names like httpServletRequest
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	LongVariable: Avoid excessively long variable names like httpServletRequest
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	MethodArgumentCouldBeFinal: Parameter 'httpServletRequest' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/ExecutionController.java:64:	MethodArgumentCouldBeFinal: Parameter 'httpServletRequest' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:24:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:24:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:35:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:35:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:35:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:35:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'headers' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'headers' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:36:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'errorMessage' (lines '37'-'39').
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'errorMessage' (lines '37'-'39').
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	LocalVariableCouldBeFinal: Local variable 'errorMessage' could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	LocalVariableCouldBeFinal: Local variable 'errorMessage' could be declared final
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	UnusedLocalVariable: Avoid unused local variables such as 'errorMessage'.
+src/main/java/com/boulamared/jpython/web/RestExceptionHandler.java:37:	UnusedLocalVariable: Avoid unused local variables such as 'errorMessage'.
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:10:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:16:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:16:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:18:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:18:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:33:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:33:	MethodArgumentCouldBeFinal: Parameter 'code' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:49:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:49:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:61:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeRequest.java:61:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:9:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:15:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:15:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:27:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:27:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:34:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:34:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:40:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/dto/CodeResponse.java:40:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:3:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:3:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:10:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/error/InterpreterNotFoundException.java:10:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:3:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:3:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:19:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/error/PythonInterpreterWrongSyntaxException.java:19:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:14:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:14:	CommentRequired: Header comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:17:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:17:	CommentRequired: Field comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	MethodArgumentCouldBeFinal: Parameter 'context' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:19:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:20:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:20:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	ControlStatementBraces: This statement should have braces
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	ControlStatementBraces: This statement should have braces
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:21:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:27:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:27:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:30:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:30:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:31:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:31:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:37:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:37:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:41:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:41:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:42:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:45:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:45:	MethodArgumentCouldBeFinal: Parameter 'statement' is not assigned and could be declared final
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/boulamared/jpython/web/handler/ExecutionHandler.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:10:	CommentRequired: Header comments are required
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:10:	CommentRequired: Header comments are required
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/boulamared/jpython/JpythonApplicationTests.java:13:	UncommentedEmptyMethodBody: Document empty method body

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.boulamared.jpython.web.handler.ExecutionHandler"
+        x="99" y="312">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.web.handler.IClientExecutor"/>
+        <Association
+            destinationClassName="com.boulamared.jpython.interpreter.InterpreterFactory"
+            endpointName="factory" kind="Simple"/>
+        <Communication destinationClassName="com.boulamared.jpython.interpreter.AbstractExpression"/>
+        <Communication destinationClassName="com.boulamared.jpython.event.IEventStore"/>
+    </Class>
+    <Class name="com.boulamared.jpython.executor.SimpleProcessExecutor"
+        x="641" y="332">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.executor.IProcessExecutor"/>
+        <Communication destinationClassName="com.boulamared.jpython.executor.ExecutionResult"/>
+    </Class>
+    <Class name="com.boulamared.jpython.event.PythonSeparatorEvent"
+        x="258" y="36">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.event.Event"/>
+    </Class>
+    <Class name="com.boulamared.jpython.interpreter.AbstractExpression"
+        x="403" y="596">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.executor.IProcessExecutor"
+        x="910" y="149">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.IO.SimpleFileEventWriter" x="62" y="561">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.IO.IEventWriter"/>
+        <Communication destinationClassName="com.boulamared.jpython.IO.utils.FileWriterUtils"/>
+    </Class>
+    <Class name="com.boulamared.jpython.web.handler.IClientExecutor"
+        x="114" y="445">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.executor.ExecutionResult"
+        x="767" y="603">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.event.Event" x="449" y="-9">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.web.ExecutionController" x="49" y="137">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.boulamared.jpython.web.handler.ExecutionHandler"
+            endpointName="executionHandler" kind="Simple"/>
+        <Communication destinationClassName="com.boulamared.jpython.web.handler.ExecutionHandler"/>
+        <Communication destinationClassName="com.boulamared.jpython.interpreter.InterpreterContext"/>
+    </Class>
+    <Class name="com.boulamared.jpython.interpreter.InterpreterFactory"
+        x="457" y="372">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.boulamared.jpython.interpreter.AbstractExpression"
+            endpointName="expressions" kind="Simple"/>
+    </Class>
+    <Class name="com.boulamared.jpython.IO.utils.FileWriterUtils"
+        x="231" y="633">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.event.InMemoryEventStore"
+        x="446" y="182">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.event.IEventStore"/>
+        <Association
+            destinationClassName="com.boulamared.jpython.event.Event"
+            endpointName="events" kind="Simple"/>
+    </Class>
+    <Class name="com.boulamared.jpython.interpreter.InterpreterContext"
+        x="636" y="107">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.boulamared.jpython.event.IEventStore"
+            endpointName="eventStore" kind="Simple"/>
+    </Class>
+    <Class name="com.boulamared.jpython.event.IEventStore" x="480" y="298">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.boulamared.jpython.IO.IEventWriter" x="252" y="532">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class
+        name="com.boulamared.jpython.interpreter.PythonTerminalExpression"
+        x="628" y="490">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.boulamared.jpython.interpreter.AbstractExpression"/>
+        <Communication destinationClassName="com.boulamared.jpython.executor.SimpleProcessExecutor"/>
+        <Communication destinationClassName="com.boulamared.jpython.interpreter.InterpreterContext"/>
+        <Communication destinationClassName="com.boulamared.jpython.event.IEventStore"/>
+        <Communication destinationClassName="com.boulamared.jpython.IO.SimpleFileEventWriter"/>
+        <Communication destinationClassName="com.boulamared.jpython.executor.ExecutionResult"/>
+    </Class>
+</ClassDiagram>
